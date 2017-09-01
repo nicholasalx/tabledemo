@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MdButtonModule, MdCheckboxModule, MdTableModule, MdPaginatorModule, MdSortModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,12 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MdButtonModule, 
+    MdCheckboxModule,
+    MdTableModule,
+    MdPaginatorModule,
+    MdSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
